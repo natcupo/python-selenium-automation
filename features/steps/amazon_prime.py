@@ -21,7 +21,7 @@ def click_try_button(context):
 def verify_items(context):
     print(len(context.driver.find_elements(By.CSS_SELECTOR, 'div.a-padding-base')))
     value = len(context.driver.find_elements(By.CSS_SELECTOR, 'div.a-padding-base'))
-    assert value == 4, f'Expected 8 items, but got value'
+    assert value == 4, f'Expected 8 items, but got {value}'
 
 
 
