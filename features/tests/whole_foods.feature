@@ -1,6 +1,7 @@
 # Created by vinny at 10/20/2019
-Feature: #Enter feature name here
+Feature: Whole foods deals
   # Enter feature description here
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: Verification of every product of the page
+    Given Open Amazon Whole Foods page
+    When Verify products contain word Regular
