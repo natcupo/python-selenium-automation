@@ -10,9 +10,9 @@ Feature: Today's deal
     When Switch to the new openly window
     When Today deals are shown
     And Click on product name
-    And Click on product
     And Add product to cart
     And User can close new window and switch back to original
     And Refresh page
+    And Click on cart
     When Cart has one item in it
     When Verify there is one item
